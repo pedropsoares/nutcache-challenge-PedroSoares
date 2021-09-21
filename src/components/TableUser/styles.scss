@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  font: 400 14px Roboto, sans-serif;
+
+}
+
+.table-users {
+  margin-top: 0 auto;
+  max-width: 1700px;
+  padding: 60px 30px;
+
+  align-self: start;
+}
+
+.MTableToolbar-searchField-10, .MTableToolbar-actions-8, .MuiTableFooter-root {
+  display: none !important;
+}
+
+
+#cards ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 90px;
+  list-style: none;
+}
+
+

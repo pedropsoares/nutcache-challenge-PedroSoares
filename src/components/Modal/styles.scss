@@ -1,0 +1,38 @@
+.modal {
+  position: absolute;
+  justify-content: center;
+  padding: 8px;
+
+  width: 500px;
+  background-color: white;
+  height: 600px;
+  border-radius: 16px;
+  color: black;
+
+  transform: translateY(-100%);
+
+  opacity: 0;
+
+  &.showModal {
+    transition: all 0.5s;
+
+    opacity: 1;
+    transform: translateY(0%);
+  }
+
+  .modal-content {
+    padding-top: 24px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.modal-backdrop {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000;
+  opacity: 0.25;
+}
